@@ -13,11 +13,8 @@ class UserModel {
     public func getArrayUsers() -> [UserModel] {
         var userArr = [UserModel]()
         userArr.append(UserModel(userImage: UIImage(named: "bek")!, userLabel: "Бекболсун Таалайбеков"))
-        userArr.append(UserModel(userImage: UIImage(named: "begai")!, userLabel: "Акунова Бегайым"))
         userArr.append(UserModel(userImage: UIImage(named: "nargiza")!, userLabel: "Наргиза Бейшекенова"))
-        userArr.append(UserModel(userImage: UIImage(named: "pamir")!, userLabel: "Памирбек Алмазбеков"))
         userArr.append(UserModel(userImage: UIImage(named: "sherislam")!, userLabel: "Шерислам Талатбеков"))
-        userArr.append(UserModel(userImage: UIImage(named: "beks")!, userLabel: "Бексултан Маратов"))
         userArr.append(UserModel(userImage: UIImage(named: "magomed")!, userLabel: "Магомед Нагоев"))
         userArr.shuffle()
         return userArr

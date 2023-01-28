@@ -22,7 +22,7 @@ class LaunchView: UIView {
     }
 
     private func uiConfig(){
-        backgroundColor = #colorLiteral(red: 0.1176470444, green: 0.1176470444, blue: 0.1176470444, alpha: 1)
+        backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
 
         addSubview(foldersView)
         addSubview(pointsView)
